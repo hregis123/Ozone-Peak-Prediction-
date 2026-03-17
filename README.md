@@ -36,7 +36,7 @@ The core objective is to identify the most significant predictors and ensure the
 
 ## Results and Prediction
 The final model provides a robust framework for environmental forecasting. 
-*Example:* For a temperature at 12 PM of 15°C, a cloud cover at 9 AM of 2, and a previous day's maxO3 of 100, the model successfully computes a precise predicted value.
+*Example:* For a temperature at 12 PM of 15°C, a cloud cover at 9 AM of 2, and a previous day's maxO3 of 100, the model successfully computes a precise predicted value for the maximum ozone concentration, which is 84 μ\gr/m3.
 
 ## Repository Structure
 * `ozone_multiple_linear_regression.R`: Full script for data analysis and modeling.
@@ -82,7 +82,7 @@ L'objectif est d'identifier les facteurs les plus influents et de garantir la fi
 
 ## Résultats et Prédiction
 Le modèle final permet d'effectuer des prévisions précises. 
-*Exemple de résultat :* Pour une température à 12h de 15°C, une nébulosité à 9h de 2 et un maxO3 la veille de 100, le modèle prédit une valeur de concentration optimisée.
+*Exemple de résultat :* Pour une température à 12h de 15°C, une nébulosité à 9h de 2 et un maxO3 la veille de 100, le modèle prédit une valeur de concentration maximale d'ozone de 84 μ\gr/m3.
 
 ## Structure des fichiers
 * `ozone_multiple_linear_regression.R` : Script complet de l'analyse et de la modélisation.
