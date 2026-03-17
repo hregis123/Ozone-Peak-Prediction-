@@ -1,13 +1,16 @@
 
 
 ## Multiple linear regression
+# Importing database
+
+ozone=read.table(file = "Dataset_ozone.txt", sep = ";", dec = ",", header = T)
 
 # Loading libraries / Chargement des librairies 
 
 library(dplyr)
 library(ggplot2)
 
-# Building the initial model / Construction du mod�le initial
+# Building the initial model / Construction du modèle initial
 
 reg_multi = lm(maxO3~T9+T12+T15+Ne9+Ne12+Ne15+maxO3v,data=ozone)
 summary(reg_multi)
@@ -46,7 +49,7 @@ vif(reg_multi)
 
 # Test for homoscedasticity / Test d'homoscedasticite 
 
-bptest(reg_multi) # p-value > 0.05, on ne rejette pas H0. Les varaiances sont homogènes
+bptest(reg_multi) # p-value > 0.05, on ne rejette pas H0. Les varaiances sont homogÃ¨nes
 
 ## Normality test for residuals / Test de normalite des residus
 
